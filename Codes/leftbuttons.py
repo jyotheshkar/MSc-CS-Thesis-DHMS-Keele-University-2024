@@ -10,18 +10,7 @@ from utils import custom_error_messagebox
 from visualizebutton import open_visualize_data  
 
 
-CONFIG_FILE = 'upload_config.json'
-SAVE_DIR = 'saved_upload_data'
-
-def save_config(config):
-    with open(CONFIG_FILE, 'w') as f:
-        json.dump(config, f)
-
-def load_config():
-    if os.path.exists(CONFIG_FILE):
-        with open(CONFIG_FILE, 'r') as f:
-            return json.load(f)
-    return {}
+from data_utils import CONFIG_FILE, SAVE_DIR, load_config, save_config
 
 def delete_files():
     if os.path.exists(CONFIG_FILE):

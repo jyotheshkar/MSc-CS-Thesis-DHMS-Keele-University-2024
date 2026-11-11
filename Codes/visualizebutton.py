@@ -1,3 +1,4 @@
+from data_utils import SAVE_DIR
 # # visualizebutton.py
 
 
@@ -123,13 +124,13 @@ class VisualizeDataApp:
         self.clear_tooltips()  # Clear existing tooltips before plotting new data
 
         if data_type == "activity":
-            file_path = 'saved_upload_data/activity_levels.csv'
+            file_path = str(SAVE_DIR / 'activity_levels.csv')
             cow_data = plot_activity_levels(cow_id, compare_with_cow_id=compare_id, file_path=file_path)
             update_plot(self.left_plot_ax, cow_data, cow_id, data_type, self.annotations)
             if compare_id:
                 update_right_plot(self.right_plot_ax, cow_data, cow_id, compare_id, data_type, self.annotations)
         elif data_type == "temperature":
-            file_path = 'saved_upload_data/temperature_data.csv'
+            file_path = str(SAVE_DIR / 'temperature_data.csv')
             cow_data = plot_temperature_levels(cow_id, compare_with_cow_id=compare_id, file_path=file_path)
             update_plot(self.left_plot_ax, cow_data, cow_id, data_type, self.annotations)
             if compare_id:

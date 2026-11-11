@@ -38,8 +38,7 @@ import shutil
 
 
 # Path for the config file
-CONFIG_FILE = 'upload_config.json'
-SAVE_DIR = 'saved_upload_data'
+from data_utils import CONFIG_FILE, SAVE_DIR
 
 # Function to delete the config file
 def delete_config_file_and_data():

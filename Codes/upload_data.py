@@ -6,36 +6,15 @@ import os
 import shutil
 from utils import custom_error_messagebox  # Assuming you have a custom error message function
 # from visualize_uploaded_data import open_visualize_uploaded_data
-from data_utils import get_uploaded_data_paths
-# No need to import visualize_uploaded_data.py in upload_data.py if not absolutely necessary
+from data_utils import (CONFIG_FILE, SAVE_DIR, get_uploaded_data_paths,
+                        load_config, save_config)
 
-
-CONFIG_FILE = 'upload_config.json'
-SAVE_DIR = 'saved_upload_data'
-
-def save_config(config):
-    with open(CONFIG_FILE, 'w') as f:
-        json.dump(config, f)
-
-def load_config():
-    if os.path.exists(CONFIG_FILE):
-        with open(CONFIG_FILE, 'r') as f:
-            return json.load(f)
-    return {}
 
 def delete_files():
     if os.path.exists(CONFIG_FILE):
         os.remove(CONFIG_FILE)
     if os.path.exists(SAVE_DIR):
         shutil.rmtree(SAVE_DIR)
-
-def get_uploaded_data_paths():
-    """
-    Returns the uploaded file paths for activity and temperature data.
-    This function retrieves the saved paths from the configuration.
-    """
-    config = load_config()
-    return config.get('activity_levels_file_path'), config.get('temperature_analysis_file_path')
 
 class UploadDataApp:
     def __init__(self, root):
