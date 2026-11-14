@@ -1,5 +1,9 @@
 __pycache__/
 *.py[cod]
 .venv/
+desktop/build/
+desktop/dist/
+desktop/release/
+desktop/*.spec
 .env
 *.tmp
