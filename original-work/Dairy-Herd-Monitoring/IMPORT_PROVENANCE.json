@@ -1,0 +1,118 @@
+{
+  "source_repository": "jyotheshkar/Dairy-Herd-Monitoring",
+  "source_tree_sha": "f2e11a03c10811b6fc4bfa317f4572d7e05754f1",
+  "imported_at": "2026-11-14",
+  "files": [
+    {
+      "path": ".github/workflows/maintenance.yml",
+      "sha": "d85b8810d1a16b028b1946cb061a06c6d804d06a",
+      "size": 544
+    },
+    {
+      "path": "README.md",
+      "sha": "bb5aca4564905e92d5238433308ff8787ff25846",
+      "size": 281
+    },
+    {
+      "path": "activity.py",
+      "sha": "9df98a2536511a3881cf68e4e467cd0c39fb59f5",
+      "size": 6209
+    },
+    {
+      "path": "activitypreprocessing.py",
+      "sha": "0128e901cdf596e3cbcd1cbdad99e434cd0b9222",
+      "size": 4996
+    },
+    {
+      "path": "datavisualize.py",
+      "sha": "2dbcb1fbaa47ffdc51dc0711b973604b894c18a1",
+      "size": 2904
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha": "3b4de4d51be3374089effc0800d9b755e3cd737c",
+      "size": 3741
+    },
+    {
+      "path": "leftbuttons.py",
+      "sha": "1cc589580ebef7d22c048ab4df08d84183008944",
+      "size": 8212
+    },
+    {
+      "path": "leftgraphmain.py",
+      "sha": "057980066c81cb57b5bebbb8bc6257497daee7b9",
+      "size": 1158
+    },
+    {
+      "path": "main.py",
+      "sha": "85ed9f649f09c6dfb92355be8c623787eb6b8357",
+      "size": 6929
+    },
+    {
+      "path": "requirements-sequences.txt",
+      "sha": "f6fc6e3788496fafeb3f9af7a482e564fef82460",
+      "size": 30
+    },
+    {
+      "path": "results.py",
+      "sha": "479f143b076b5af0bc2e7b7056b21dbf86f4a33c",
+      "size": 4669
+    },
+    {
+      "path": "rightbuttons.py",
+      "sha": "67d1e99f75086252b90e128dc98e17a9f5cea2dd",
+      "size": 1371
+    },
+    {
+      "path": "rightgraphmain.py",
+      "sha": "f4fef738a7d84490e21006bd2f6113150c5c22a7",
+      "size": 1167
+    },
+    {
+      "path": "software.bat",
+      "sha": "13223616ff9e5a92426218ccf3a59d6ece20a020",
+      "size": 86
+    },
+    {
+      "path": "temperature.py",
+      "sha": "bcf92a79bad8d7a68aebed5e8e2a8358aa9b4386",
+      "size": 5156
+    },
+    {
+      "path": "temppreprocessing.py",
+      "sha": "2f6a31f84c0844ad9eb27b7a8a585b0bbd92fb9e",
+      "size": 5010
+    },
+    {
+      "path": "test.py",
+      "sha": "099b63dd49c209b1bcb8b174554de7b49666004e",
+      "size": 1210
+    },
+    {
+      "path": "tests/test_sequences.py",
+      "sha": "a45775eb1bc649cec72e16dc1bce905a1252f38c",
+      "size": 1378
+    },
+    {
+      "path": "timeseriesformatting.py",
+      "sha": "9956318cb5ca3b5e0d166351aa7133489337f89a",
+      "size": 2628
+    },
+    {
+      "path": "traincode.py",
+      "sha": "d344951e9feb10845696e98015252546bfef9e94",
+      "size": 1882
+    },
+    {
+      "path": "utils.py",
+      "sha": "ab8f46455a4a3673363249bfdb421ebea2eb68ec",
+      "size": 3307
+    },
+    {
+      "path": "visualizebutton.py",
+      "sha": "2255aeb2563c29d271a52637c0f0070b7d069393",
+      "size": 5341
+    }
+  ],
+  "note": "Byte-identical snapshot preserving original work. Original repository and history remain until user confirms deletion."
+}
