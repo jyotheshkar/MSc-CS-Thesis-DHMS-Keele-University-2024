@@ -1,0 +1,235 @@
+{
+  "source_repository": "jyotheshkar/Dairy-Herd-Monitoring-2024",
+  "captured_at": "2026-11-14",
+  "source_main_commit": "b3da681b3e4cb84bb5c01e6ad62a51cdbc991b01",
+  "source_main_tree": "80f68bddb7b2bc0b20d150e8e48e1b76ce7b4483",
+  "files": [
+    {
+      "source_path": ".github/workflows/maintenance.yml",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/.github/workflows/maintenance.yml",
+      "sha": "d85b8810d1a16b028b1946cb061a06c6d804d06a",
+      "size": 544
+    },
+    {
+      "source_path": "README.md",
+      "preserved_path": "docs/consolidation/dairy-herd-final-readme.md",
+      "sha": "a05a3e953a2fa51209f8c45df729a54ece35a774",
+      "size": 712
+    },
+    {
+      "source_path": "activity.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/activity.py",
+      "sha": "9df98a2536511a3881cf68e4e467cd0c39fb59f5",
+      "size": 6209
+    },
+    {
+      "source_path": "activitypreprocessing.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/activitypreprocessing.py",
+      "sha": "0128e901cdf596e3cbcd1cbdad99e434cd0b9222",
+      "size": 4996
+    },
+    {
+      "source_path": "datavisualize.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/datavisualize.py",
+      "sha": "2dbcb1fbaa47ffdc51dc0711b973604b894c18a1",
+      "size": 2904
+    },
+    {
+      "source_path": "docs/ARCHITECTURE.md",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/docs/ARCHITECTURE.md",
+      "sha": "3b4de4d51be3374089effc0800d9b755e3cd737c",
+      "size": 3741
+    },
+    {
+      "source_path": "leftbuttons.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/leftbuttons.py",
+      "sha": "1cc589580ebef7d22c048ab4df08d84183008944",
+      "size": 8212
+    },
+    {
+      "source_path": "leftgraphmain.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/leftgraphmain.py",
+      "sha": "057980066c81cb57b5bebbb8bc6257497daee7b9",
+      "size": 1158
+    },
+    {
+      "source_path": "main.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/main.py",
+      "sha": "85ed9f649f09c6dfb92355be8c623787eb6b8357",
+      "size": 6929
+    },
+    {
+      "source_path": "requirements-sequences.txt",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/requirements-sequences.txt",
+      "sha": "f6fc6e3788496fafeb3f9af7a482e564fef82460",
+      "size": 30
+    },
+    {
+      "source_path": "results.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/results.py",
+      "sha": "479f143b076b5af0bc2e7b7056b21dbf86f4a33c",
+      "size": 4669
+    },
+    {
+      "source_path": "rightbuttons.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/rightbuttons.py",
+      "sha": "67d1e99f75086252b90e128dc98e17a9f5cea2dd",
+      "size": 1371
+    },
+    {
+      "source_path": "rightgraphmain.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/rightgraphmain.py",
+      "sha": "f4fef738a7d84490e21006bd2f6113150c5c22a7",
+      "size": 1167
+    },
+    {
+      "source_path": "software.bat",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/software.bat",
+      "sha": "13223616ff9e5a92426218ccf3a59d6ece20a020",
+      "size": 86
+    },
+    {
+      "source_path": "temperature.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/temperature.py",
+      "sha": "bcf92a79bad8d7a68aebed5e8e2a8358aa9b4386",
+      "size": 5156
+    },
+    {
+      "source_path": "temppreprocessing.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/temppreprocessing.py",
+      "sha": "2f6a31f84c0844ad9eb27b7a8a585b0bbd92fb9e",
+      "size": 5010
+    },
+    {
+      "source_path": "test.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/test.py",
+      "sha": "099b63dd49c209b1bcb8b174554de7b49666004e",
+      "size": 1210
+    },
+    {
+      "source_path": "tests/test_sequences.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/tests/test_sequences.py",
+      "sha": "a45775eb1bc649cec72e16dc1bce905a1252f38c",
+      "size": 1378
+    },
+    {
+      "source_path": "timeseriesformatting.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/timeseriesformatting.py",
+      "sha": "9956318cb5ca3b5e0d166351aa7133489337f89a",
+      "size": 2628
+    },
+    {
+      "source_path": "traincode.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/traincode.py",
+      "sha": "d344951e9feb10845696e98015252546bfef9e94",
+      "size": 1882
+    },
+    {
+      "source_path": "utils.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/utils.py",
+      "sha": "ab8f46455a4a3673363249bfdb421ebea2eb68ec",
+      "size": 3307
+    },
+    {
+      "source_path": "visualizebutton.py",
+      "preserved_path": "original-work/Dairy-Herd-Monitoring/visualizebutton.py",
+      "sha": "2255aeb2563c29d271a52637c0f0070b7d069393",
+      "size": 5341
+    }
+  ],
+  "branches": [
+    {
+      "name": "main",
+      "sha": "b3da681b3e4cb84bb5c01e6ad62a51cdbc991b01"
+    },
+    {
+      "name": "maintenance/architecture-20261111",
+      "sha": "64a2d61c9c0c95c02b6486f759ca1a257975bd77",
+      "note": "All branch file blobs already retained in the original-work snapshot; only README differs from final main."
+    }
+  ],
+  "main_history_metadata": [
+    {
+      "sha": "b3da681b3e4cb84bb5c01e6ad62a51cdbc991b01",
+      "parents": [
+        "9c19561f058f20baa81cfdcc8296d22726b19917"
+      ],
+      "message": "Point canonical thesis link to renamed MSc DHMS Thesis repository",
+      "author": {
+        "name": "Jyothesh Karnam",
+        "email": "96298283+jyotheshkar@users.noreply.github.com",
+        "date": "2026-11-14T15:21:16Z"
+      },
+      "committer": {
+        "name": "Jyothesh Karnam",
+        "email": "96298283+jyotheshkar@users.noreply.github.com",
+        "date": "2026-11-14T15:21:16Z"
+      },
+      "tree": "80f68bddb7b2bc0b20d150e8e48e1b76ce7b4483"
+    },
+    {
+      "sha": "9c19561f058f20baa81cfdcc8296d22726b19917",
+      "parents": [
+        "f2e11a03c10811b6fc4bfa317f4572d7e05754f1"
+      ],
+      "message": "Link preserved dairy-herd source to consolidated MSc archive and document year",
+      "author": {
+        "name": "Jyothesh Karnam",
+        "email": "96298283+jyotheshkar@users.noreply.github.com",
+        "date": "2026-11-14T14:11:16Z"
+      },
+      "committer": {
+        "name": "Jyothesh Karnam",
+        "email": "96298283+jyotheshkar@users.noreply.github.com",
+        "date": "2026-11-14T14:11:16Z"
+      },
+      "tree": "a0d3db356dbdcebf990cd04b406181e8a43f64fb"
+    },
+    {
+      "sha": "f2e11a03c10811b6fc4bfa317f4572d7e05754f1",
+      "parents": [
+        "b6a408c0f3a4de72d4077ab626a489b686093c30"
+      ],
+      "message": "Repair bounded reliability defects and document technical architecture (#1)",
+      "author": {
+        "name": "Jyothesh Karnam",
+        "email": "96298283+jyotheshkar@users.noreply.github.com",
+        "date": "2026-11-11T13:10:56Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-11T13:10:56Z"
+      },
+      "tree": "0d8b0ff9a711ec54e1604ed46b20c5d6315450a7"
+    },
+    {
+      "sha": "b6a408c0f3a4de72d4077ab626a489b686093c30",
+      "parents": [],
+      "message": "Add files via upload",
+      "author": {
+        "name": "Jyothesh Karnam",
+        "email": "96298283+jyotheshkar@users.noreply.github.com",
+        "date": "2024-08-03T18:22:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-08-03T18:22:27Z"
+      },
+      "tree": "31f7a7c9efa7f0aa96fc1532e3d1d8aca541494c"
+    }
+  ],
+  "closed_pr": {
+    "number": 1,
+    "title": "Validate portable sequence preparation and document herd-monitoring architecture",
+    "comments": [
+      {
+        "body": "<!-- codex-pull-request-review-summary -->\n<!-- codex-review-state:v1 {\"code_review\":{\"commit_sha\":\"64a2d61c9c0c95c02b6486f759ca1a257975bd77\",\"has_any_findings\":false,\"has_unresolved_findings\":false,\"status\":\"completed\"},\"security_review\":{\"commit_sha\":null,\"has_any_findings\":null,\"has_unresolved_findings\":null,\"status\":null}} -->\n\n<details>\n<summary><strong>Codex Review Summary</strong>: ✅ Completed</summary>\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --- | --- | --- |\n| 📝 **Code Review** | ✅ **Completed** <relative-time datetime=\"2026-11-11T13:09:31.653844Z\">2026-11-11T13:09:31.653844Z</relative-time> | `64a2d61` | PR opened |\n\n\n\n<details> <summary>ℹ️ About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\" or \"@codex security review\".\n\nCodex reacts with 👀 while any review is running, comments if it has suggestions, and reacts with 👍 once all reviews finish with no findings.\n\n</details>\n\n</details>",
+        "created_at": "2026-11-11T13:08:16Z",
+        "author": "chatgpt-codex-connector[bot]"
+      }
+    ]
+  },
+  "limits": "This preserves file bytes and a history/discussion metadata record, not the original Git commit graph or GitHub repository settings. The source remains intact pending explicit deletion confirmation."
+}

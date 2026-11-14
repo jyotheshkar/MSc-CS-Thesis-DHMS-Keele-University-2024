@@ -44,6 +44,6 @@ Original application files, GUI structure and data schemas remain in the reposit
 - [System and deployment architecture, decisions, contracts and validation](docs/ENGINEERING.md)
 - [Web edition and verification](web/README.md)
 
-[Original supporting coursework](original-work/Dairy-Herd-Monitoring/) has been consolidated into this repository with a file-level import provenance record. The source repository remains available pending your deletion decision.
+[Original supporting coursework](original-work/Dairy-Herd-Monitoring/) has been consolidated into this repository with a file-level import provenance record. All 22 files from the final source revision have been checked against this repository. The [final source README](docs/consolidation/dairy-herd-final-readme.md) and [file-level consolidation receipt](docs/consolidation/dairy-herd-final-receipt.json) supplement the preserved original import. Source deletion remains pending confirmation.
 
 University-authored documents retain their own notices. The repository’s code licence does not automatically license third-party teaching materials or datasets.
