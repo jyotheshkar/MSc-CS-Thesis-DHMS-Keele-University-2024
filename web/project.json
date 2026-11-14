@@ -1,0 +1,29 @@
+{
+  "code": "CSC-40040",
+  "course_name": "MSc Project",
+  "mark": 77,
+  "credits": 60,
+  "project": "Time-series Neural Network Software Suite and App Development for Dairy Herd Monitoring",
+  "skills": [
+    "Python",
+    "time-series modelling",
+    "neural networks",
+    "desktop GUI design",
+    "model evaluation",
+    "research methods"
+  ],
+  "surface": "Tkinter research application",
+  "summary": "Investigate dairy-herd activity and temperature through a desktop research suite for data upload, neural-model training and visualisation.",
+  "flow": [
+    "Activity and temperature data",
+    "Cleaning and normalisation",
+    "Generic or bespoke models",
+    "Tkinter plots and reports"
+  ],
+  "decision": "Keep model training and data processing separate from Tkinter callbacks. A long-running fit should report progress through a queue, while only the main GUI thread updates widgets.",
+  "tradeoff": "Desktop execution keeps research files local and allows specialised Python libraries. A future service adds remote access but introduces model-job scheduling, access control and dataset governance requirements.",
+  "contract": "Record animal identifier, measurement time, activity and temperature with units. Evaluate on later time periods and unseen animals where appropriate; fit preprocessing on training data only.",
+  "limits": "The original research prototype is not a validated veterinary diagnostic service. The browser workbench compares a trailing-mean baseline on invented activity values; it is not the original neural network and its MAE is illustrative.",
+  "demo": "msc",
+  "github": "https://github.com/jyotheshkar/MSc-Project-CSC-40040-Keele-University"
+}
