@@ -1,6 +1,6 @@
-# MSc Project - CSC-40040 - Keele University - 2024
+# MSc DHMS Thesis - CSC-40040 - Keele University - 2024
 
-[![Repository checks](https://github.com/jyotheshkar/MSc-Project-CSC-40040-Keele-University-2024/actions/workflows/maintenance.yml/badge.svg)](https://github.com/jyotheshkar/MSc-Project-CSC-40040-Keele-University-2024/actions/workflows/maintenance.yml) ![Verified module mark: 77%](https://img.shields.io/badge/Verified_module_mark-77%25-1769aa)
+[![Repository checks](https://github.com/jyotheshkar/MSc-DHMS-Thesis-CSC-40040-Keele-University-2024/actions/workflows/maintenance.yml/badge.svg)](https://github.com/jyotheshkar/MSc-DHMS-Thesis-CSC-40040-Keele-University-2024/actions/workflows/maintenance.yml) ![Verified module mark: 77%](https://img.shields.io/badge/Verified_module_mark-77%25-1769aa)
 
 Investigate dairy-herd activity and temperature through a desktop research suite for data upload, neural-model training and visualisation.
 
