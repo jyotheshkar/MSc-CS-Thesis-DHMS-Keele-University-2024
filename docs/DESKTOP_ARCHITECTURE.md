@@ -28,7 +28,7 @@ Descriptive statistics are calculated per selected cow and metric. The baseline 
 
 ## Workload and scaling
 
-This is a bounded local application. Imports are capped at 20 MiB, 100,000 records and 500 cows; charts display a bounded subset while analyses retain accepted observations. These are protective limits, not measured claims of low latency at maximum capacity. Large files fail with an explanatory message. Background work keeps input handling separate from parsing and calculations.
+This is a bounded local application. Imports are capped at 20 MiB, 100,000 records and 500 cows; charts display a bounded subset while analyses retain accepted observations. These are protective limits, not latency guarantees. A [single synthetic benchmark](DESKTOP_BENCHMARK.md) exercises the observation and cow limits; it does not measure GUI latency or peak memory. Large files fail with an explanatory message. Background work keeps input handling separate from parsing and calculations.
 
 For larger herds, next steps would include an indexed local database, streaming aggregation and separately benchmarked analysis workers. A multi-user hosted service would require its own identity, authorisation, tenancy, job scheduling, storage and operational design. None is implied by the desktop package.
 

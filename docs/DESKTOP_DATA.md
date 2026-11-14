@@ -30,6 +30,6 @@ The historical `.h5` model files are not loaded by the supported desktop edition
 
 ## Legacy wide input
 
-For earlier exports, choose **Legacy activity wide CSV** or **Legacy temperature wide CSV** in the format selector before opening the file. Use a `Date` or `Unnamed: 0` column containing ISO timestamps and one measurement column per cow. A case/space-normalised `Group mean` column is ignored; herd means are recomputed from available cow measurements. Blank metric cells are omitted, with no imputation or resampling.
+For earlier exports, choose **Legacy activity wide** or **Legacy temperature wide** in the format selector before opening the file. Use a `Date` or `Unnamed: 0` column containing ISO timestamps and one measurement column per cow. A case/space-normalised `Group mean` column is ignored; herd means are recomputed from available cow measurements. Blank metric cells are omitted, with no imputation or resampling.
 
 Herd values may reflect different cow coverage at different timestamps. A constant interval is not enforced, so the trailing window is a count of observations, not a fixed number of hours.
