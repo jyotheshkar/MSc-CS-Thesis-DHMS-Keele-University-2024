@@ -1,6 +1,6 @@
-# MSc Project - CSC-40040 - Keele University
+# MSc Project - CSC-40040 - Keele University - 2024
 
-[![Repository checks](https://github.com/jyotheshkar/MSc-Project-CSC-40040-Keele-University/actions/workflows/maintenance.yml/badge.svg)](https://github.com/jyotheshkar/MSc-Project-CSC-40040-Keele-University/actions/workflows/maintenance.yml) ![Verified module mark: 77%](https://img.shields.io/badge/Verified_module_mark-77%25-1769aa)
+[![Repository checks](https://github.com/jyotheshkar/MSc-Project-CSC-40040-Keele-University-2024/actions/workflows/maintenance.yml/badge.svg)](https://github.com/jyotheshkar/MSc-Project-CSC-40040-Keele-University-2024/actions/workflows/maintenance.yml) ![Verified module mark: 77%](https://img.shields.io/badge/Verified_module_mark-77%25-1769aa)
 
 Investigate dairy-herd activity and temperature through a desktop research suite for data upload, neural-model training and visualisation.
 
@@ -8,12 +8,15 @@ Investigate dairy-herd activity and temperature through a desktop research suite
 |---|---|
 | Programme | MSc Computer Science, Keele University |
 | Academic year | 2023/24 |
+| Project year | 2024 |
 | Final module mark | **77%** |
 | Credit | 60 CATS |
 | Original project | Time-series Neural Network Software Suite and App Development for Dairy Herd Monitoring |
 | Original delivery | Tkinter research application |
 
 The mark was verified against the final academic transcript, page 2, issued 15 January 2025. It applies to the original module assessment. Portfolio maintenance and the web edition dated **14 November 2026** were completed later with AI assistance and were not assessed by Keele.
+
+The repository year **2024** records the original dissertation, submitted **13 September 2024** during academic year **2023/24**. See the [original dissertation abstract and provenance](docs/original/student-dissertation-abstract.md). Later portfolio maintenance retains its own 2026 date.
 
 ## Latest web edition
 
