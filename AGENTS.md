@@ -1,7 +1,7 @@
 # Repository guidance
 
 This repository preserves the 2024 Keele MSc dairy-herd monitoring research
-application and a later synthetic browser demonstration.
+application, a later synthetic browser demonstration and the supported DHMS Desktop edition.
 
 - Read `docs/ENGINEERING.md` and `docs/ARCHITECTURE_MAINTENANCE.md` before changes.
 - Keep assessed source, model artifacts, module marks and later maintenance
@@ -10,6 +10,16 @@ application and a later synthetic browser demonstration.
   records exact source bytes. Put new implementation outside that snapshot.
 - Keep real herd datasets, credentials and session uploads out of version control.
 - Make focused changes and report exact observed checks and remaining limitations.
+
+## Supported desktop edition
+
+- Read `docs/DESKTOP_ARCHITECTURE.md` and `docs/DESKTOP_DATA.md` before desktop changes.
+- New code belongs in `desktop/`; do not modify the preserved original-work snapshot.
+- Never interpret baseline MAE as health/clinical accuracy or silently reactivate legacy models.
+- Keep source CSVs read-only and runtime state in a user workspace.
+- Keep the UI responsive: worker results cross a queue; Tk updates stay on its main thread.
+- Before release run desktop tests, source self-test, GUI smoke and native package smoke.
+- Download filenames and version must match package metadata and release tag.
 
 ## Verification
 
@@ -32,3 +42,4 @@ python -m unittest discover -s tests -v
 These checks do not start the historical Tkinter GUI, train TensorFlow models
 or establish a veterinary deployment. Full GUI execution requires missing assets
 and a separately reproduced historical environment.
+
