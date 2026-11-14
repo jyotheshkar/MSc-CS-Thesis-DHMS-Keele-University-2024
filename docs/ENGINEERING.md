@@ -69,3 +69,22 @@ Keep real datasets, academic identifiers, access tokens and session exports outs
 ## Known limitations
 
 The original research prototype is not a validated veterinary diagnostic service. The browser workbench compares a trailing-mean baseline on invented activity values; it is not the original neural network and its MAE is illustrative. Missing university-issued documents remain marked missing. No unavailable assessment component marks, model scores, benchmarks or production claims have been inferred from the final module result.
+
+## Consolidation verification and maintenance workflow
+
+The supporting Dairy Herd source is preserved at `original-work/Dairy-Herd-Monitoring/`.
+Its manifest now distinguishes the original commit from the Git tree, and
+`python scripts/verify_import.py` checks all 22 imported files using raw-byte sizes
+and Git blob hashes. Run this before and after maintenance; do not silently edit
+the preserved snapshot. The source repository has not been deleted by this change.
+
+CI runs the root persistence/provenance regressions, the imported sequence tests
+and `node web/verify.cjs` as separate jobs. This prevents the nested tests being
+silently omitted by root-only unittest discovery. None of these checks establishes
+full GUI startup or model accuracy.
+
+The short root `AGENTS.md` supplies project scope, preservation rules and exact
+verification commands. This applies the repository-specific guidance and observed
+evidence principles from OpenAI's [Iterating Development Workflows with Codex](https://developers.openai.com/cookbook/examples/codex/iterating-development-workflows-with-codex).
+The existing application uses classical time-series/neural-model code and a static
+browser demonstration. No OpenAI API, agent service or credential was added.

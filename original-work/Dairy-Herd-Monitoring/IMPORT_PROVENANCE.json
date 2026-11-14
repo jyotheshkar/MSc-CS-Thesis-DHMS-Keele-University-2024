@@ -1,6 +1,6 @@
 {
   "source_repository": "jyotheshkar/Dairy-Herd-Monitoring",
-  "source_tree_sha": "f2e11a03c10811b6fc4bfa317f4572d7e05754f1",
+  "source_tree_sha": "0d8b0ff9a711ec54e1604ed46b20c5d6315450a7",
   "imported_at": "2026-11-14",
   "files": [
     {
@@ -114,5 +114,7 @@
       "size": 5341
     }
   ],
-  "note": "Byte-identical snapshot preserving original work. Original repository and history remain until user confirms deletion."
+  "note": "Byte-identical 22-file snapshot verified against the source default branch. Original repository and history remain available; no deletion is part of this maintenance change.",
+  "source_commit_sha": "f2e11a03c10811b6fc4bfa317f4572d7e05754f1",
+  "verified_at": "2026-11-14"
 }
