@@ -390,7 +390,8 @@ class Application:
             fraction = i / 3
             xx = left + fraction * (right - left)
             timestamp = first + (last - first) * fraction
-            canvas.create_text(xx, bottom + 23, text=timestamp.strftime("%Y-%m-%d\n%H:%M"), fill=MUTED, font=("TkDefaultFont", 9))
+            anchor = "nw" if i == 0 else "ne" if i == 3 else "n"
+            canvas.create_text(xx, bottom + 11, text=timestamp.strftime("%Y-%m-%d\n%H:%M"), fill=MUTED, font=("TkDefaultFont", 9), anchor=anchor)
         observed = display_points(self.series)
         coords = [coordinate for time, value in observed for coordinate in xy(time, value)]
         if len(observed) == 1:
